@@ -205,7 +205,7 @@ bool compile( int instruction, bool advance )
 
     // OOM
     case 10:
-        fprintf( output, "printf(\"%%d\\n\",*p);" );
+        fprintf( output, "printf(\"%%d\",*p);" );
         PRETTY( "OOM" );
         break;
     

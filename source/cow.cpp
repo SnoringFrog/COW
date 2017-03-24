@@ -157,7 +157,7 @@ bool exec( int instruction )
 
     // OOM
     case 10:
-        printf( "%d\n", *mem_pos );
+        printf( "%d", *mem_pos );
         break;
     
     // oom
